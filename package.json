@@ -2,6 +2,7 @@
   "name": "example-angular",
   "version": "0.0.0",
   "scripts": {
+    "pre": "jiti ./scripts/index.ts",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -25,6 +26,8 @@
     "@angular-devkit/build-angular": "^18.2.8",
     "@angular/cli": "^18.2.8",
     "@angular/compiler-cli": "^18.2.0",
+    "dotenv": "^16.4.5",
+    "jiti": "^2.3.3",
     "typescript": "~5.5.2"
   }
 }

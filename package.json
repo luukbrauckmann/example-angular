@@ -1,9 +1,6 @@
 {
   "name": "example-angular",
   "version": "0.0.0",
-  "engines": {
-    "node": ">=18.19.1"
-  },
   "scripts": {
     "pre": "jiti ./scripts/index.ts",
     "ng": "ng",
@@ -29,6 +26,7 @@
     "@angular-devkit/build-angular": "^18.2.8",
     "@angular/cli": "^18.2.8",
     "@angular/compiler-cli": "^18.2.0",
+    "angular-cli-ghpages": "^2.0.1",
     "dotenv": "^16.4.5",
     "jiti": "^2.3.3",
     "typescript": "~5.5.2"

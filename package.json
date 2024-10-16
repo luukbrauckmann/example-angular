@@ -1,6 +1,9 @@
 {
   "name": "example-angular",
   "version": "0.0.0",
+  "engines": {
+    "node": ">=18.19.1"
+  },
   "scripts": {
     "pre": "jiti ./scripts/index.ts",
     "ng": "ng",
